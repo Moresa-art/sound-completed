@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(209, 175, 240);
+    
+    
+}
+h1{
+    color: rgb(192, 18, 154);
+    text-align: center;
+    font-size: 50px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 150;
+    user-select: none;
+    padding-bottom: 3px;
+}
+
+header{
+
+
+}
+#container{
+    width: 650px;
+    height: 600px;
+   
+   background-image: url("../images/lotus.gif");
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+#lotus{
+    background-image: "images/lotus.gif";
+    text-align: center;
+    position: relative;
+    flex-direction: column;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(3, 9, 15);
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#container1{
+
+    width: 650px;
+    height: 100px;
+    background-color: rgb(2, 233, 237);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+#play-pause-button{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#current-time{
+    width: 45px;
+    padding-left: 10px;
+}
+#time-divider{
+    padding-left: 5px;
+}
+#total-time{
+    width: 45px
+}
+#seek-bar{
+    width: 150px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#volume-bar{
+    width: 150px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#volume-button{
+    width: 35px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#lotus-image{
+    size-adjust: 30;
+};
